@@ -1,0 +1,64 @@
+#titulos{
+background-color: 	#404040;
+}
+#titulos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+body{
+    font-family: "Cabin", sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-inner {
+    color: red;
+}
+
+
+.carousel-item img{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+ 
+html {
+    scroll-behavior: smooth;
+}
+hr{
+  color:black;
+  width: 1rem;
+}
+  
+
+  
