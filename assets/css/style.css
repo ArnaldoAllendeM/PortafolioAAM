@@ -43,22 +43,27 @@ body{
     color: red;
 }
 
-
 .carousel-item img{
     margin-left: auto;
     margin-right: auto; 
 }
 
-
-
- 
-html {
-    scroll-behavior: smooth;
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+
 hr{
   color:black;
   width: 1rem;
 }
-  
+
 
   
